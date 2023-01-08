@@ -3,7 +3,7 @@ import React, { ReactNode } from 'react'
 export default function Navbar() {
   return (
     <div>
-        <nav className='flex m-3 mx-24 justify-between'>
+        <nav className='flex m-3 md:mx-24 mx-8 justify-between'>
             <h1 className='font-bold mt-1'>
                 foru
                 <span className='text-blue-500 font-bold mt-1'>

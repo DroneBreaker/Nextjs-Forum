@@ -18,14 +18,14 @@ export default function Card(props:CardProps) {
 
             <hr className='mx-10'/>
 
-            <div>
-                <div className='flex mx-10 mt-2 mb-4'>
+            <div className='flex'>
+                <div className='flex mx-10 mt-2 mb-2'>
                     <img src={props.image} className='rounded-full h-4 w-5'/>
 
-                    <p className='mx-2 text-blue-700 text-sm font-bold mb-2'><span className='text-gray-300 text-sm font-medium'>Posted by </span>{props.author}</p>
+                    <p className='mx-2 text-blue-700 text-xs font-bold mb-2'><span className='text-gray-300 text-xs font-medium'>Posted by </span>{props.author}</p>
                 </div>
 
-                <div></div> 
+                {/* <div>{props.date}</div>  */}
             </div>
 
         </div>

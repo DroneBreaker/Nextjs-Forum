@@ -5,8 +5,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className='bg-gray-100'>
-      <div className='grid grid-cols-[70%_auto] h-full'>
+    <main className='bg-gray-100 w-full'>
+      <div className='grid grid-cols-1 md:grid-cols-[70%_auto] h-full'>
         <div className='mx-4'>
             <Card title={'What does the fox say?'} 
             message={`Guys! So i was in the shower and it popped in my head. What does the fox say?
@@ -31,7 +31,7 @@ export default function Home() {
 
         {/* second grid */}
         <div className='mx-2'>
-          <div className='bg-blue-500 flex justify-center mx-6 w-40 p-2 mt-4 text-xs text-white cursor-pointer'>
+          <div className='bg-blue-500 flex justify-center lg:mx-2 md:mx-6 mx-8 w-40 p-2 mt-6 text-xs text-white cursor-pointer'>
             <h1>+</h1>
 
             <h1 className='mx-2'>Start a demo</h1>
